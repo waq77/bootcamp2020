@@ -1,0 +1,22 @@
+.header{
+    background-color: lime;
+    height: 300px;
+    border: 2px solid black;
+    color: black;
+}
+
+.menu ul{
+float: right;
+list-style: none;
+padding-right: 15px;
+background: papayawhip;
+}
+.menu ul li{
+display: inline-block;
+padding: 5px;
+margin: 5px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+}
