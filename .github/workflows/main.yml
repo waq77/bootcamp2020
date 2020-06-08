@@ -1,4 +1,3 @@
-@@ -0,0 +1,36 @@
 # This is a basic workflow to help you get started with Actions
 
 name: deploy website
@@ -29,6 +28,6 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: ./ bootcampNewApp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: ./ bootcampNewApp888.surge.sh --token ${{secrets.SURGE_TOKEN}}
     # Runs a set of commands using the runners shell
 
